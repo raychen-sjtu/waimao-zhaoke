@@ -1,6 +1,8 @@
-# Trade Lead Snowball
+# 外贸找客
 
-从一组已知供应商出发，沿真实贸易关系向外扩展买家，再用产品、公司角色、交易新鲜度和触达证据筛掉噪音。
+> 用98元API，从218家公司里找出41个有效客户。
+
+一个基于跨境魔方API的海关数据获客管线。从一组已知供应商出发，沿真实贸易关系向外扩展买家，再用产品、公司角色、交易新鲜度和触达证据筛掉噪音。
 
 数据源适配的是跨境魔方开放API。公开仓库不包含平台密钥、真实客户名单、联系人、邮箱或原始海关数据。
 
@@ -68,8 +70,8 @@ flowchart LR
 不产生API费用，直接重放合成数据：
 
 ```bash
-git clone https://github.com/raychen-sjtu/trade-lead-snowball.git
-cd trade-lead-snowball
+git clone https://github.com/raychen-sjtu/waimao-zhaoke.git
+cd waimao-zhaoke
 
 python3 -m venv .venv
 source .venv/bin/activate
@@ -146,4 +148,3 @@ python trade_snowball.py run \
 ## License
 
 MIT
-
