@@ -1,0 +1,169 @@
+[
+  {
+    "endpoint": "/search/company/list",
+    "response": {
+      "code": 0,
+      "msg": "success",
+      "data": {
+        "list": [
+          {
+            "pid": "cn-demo-aurora",
+            "company_name": "Aurora Decorative Materials Co., Ltd.",
+            "country_code": "CN",
+            "products": [
+              "picture frame moulding",
+              "decorative wall trim"
+            ],
+            "email_num": 1,
+            "website_num": 1,
+            "status": 1
+          },
+          {
+            "pid": "cn-demo-aurora-steel",
+            "company_name": "Aurora Steel Frame Co., Ltd.",
+            "country_code": "CN",
+            "products": [
+              "steel frame",
+              "warehouse structure"
+            ],
+            "email_num": 1,
+            "website_num": 1,
+            "status": 1
+          }
+        ],
+        "cursor": null
+      }
+    }
+  },
+  {
+    "endpoint": "/customs/company/list",
+    "response": {
+      "code": 0,
+      "msg": "success",
+      "data": {
+        "list": [
+          {
+            "companyId": "us-demo-gallery",
+            "name": "Gallery Supply Group LLC",
+            "countryInfo": {
+              "code_iso2": "US"
+            },
+            "scope": "picture frame and decorative moulding distributor",
+            "productDesc": "PHOTO FRAME MOULDING",
+            "tradeMatchTotal": 14,
+            "tradeTotal": 30,
+            "latestTradeDate": 1782604800000,
+            "emailNum": 2,
+            "websiteNum": 1
+          },
+          {
+            "companyId": "us-demo-truck",
+            "name": "RoadWorks Components Inc.",
+            "countryInfo": {
+              "code_iso2": "US"
+            },
+            "scope": "vehicle frame and truck components",
+            "productDesc": "STEEL VEHICLE FRAME",
+            "tradeMatchTotal": 21,
+            "tradeTotal": 80,
+            "latestTradeDate": 1782604800000,
+            "emailNum": 1,
+            "websiteNum": 1
+          }
+        ],
+        "cursor": "aurora-page-2"
+      }
+    }
+  },
+  {
+    "endpoint": "/customs/company/list",
+    "response": {
+      "code": 0,
+      "msg": "success",
+      "data": {
+        "list": [
+          {
+            "companyId": "de-demo-interior",
+            "name": "Interior Profiles GmbH",
+            "countryInfo": {
+              "code_iso2": "DE"
+            },
+            "scope": "interior wall trim and decorative profiles",
+            "productDesc": "DECORATIVE MOULDING",
+            "tradeMatchTotal": 5,
+            "tradeTotal": 11,
+            "latestTradeDate": 1774828800000,
+            "emailNum": 0,
+            "websiteNum": 1
+          }
+        ],
+        "cursor": null
+      }
+    }
+  },
+  {
+    "endpoint": "/search/company/list",
+    "response": {
+      "code": 0,
+      "msg": "success",
+      "data": {
+        "list": [
+          {
+            "pid": "cn-demo-harbor",
+            "company_name": "Harbor Moulding Products Co., Ltd.",
+            "country_code": "CN",
+            "products": [
+              "photo frame",
+              "frame moulding"
+            ],
+            "email_num": 1,
+            "website_num": 1,
+            "status": 1
+          }
+        ],
+        "cursor": null
+      }
+    }
+  },
+  {
+    "endpoint": "/customs/company/list",
+    "response": {
+      "code": 0,
+      "msg": "success",
+      "data": {
+        "list": [
+          {
+            "companyId": "us-demo-gallery",
+            "name": "Gallery Supply Group LLC",
+            "countryInfo": {
+              "code_iso2": "US"
+            },
+            "scope": "picture frame and decorative moulding distributor",
+            "productDesc": "PHOTO FRAME MOULDING",
+            "tradeMatchTotal": 9,
+            "tradeTotal": 20,
+            "latestTradeDate": 1782604800000,
+            "emailNum": 2,
+            "websiteNum": 1
+          },
+          {
+            "companyId": "au-demo-home",
+            "name": "Southern Home Finishes Pty Ltd",
+            "countryInfo": {
+              "code_iso2": "AU"
+            },
+            "scope": "home finishing products",
+            "productDesc": "DECORATIVE PRODUCTS",
+            "tradeMatchTotal": 3,
+            "tradeTotal": 9,
+            "latestTradeDate": 1767225600000,
+            "emailNum": 1,
+            "websiteNum": 1
+          }
+        ],
+        "cursor": null
+      }
+    }
+  }
+]
+

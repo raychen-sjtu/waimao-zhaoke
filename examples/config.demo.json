@@ -1,0 +1,57 @@
+{
+  "project": {
+    "name": "Architectural Trim Buyer Discovery Demo"
+  },
+  "provider": {
+    "base_url": "https://openapi.upkuajing.com"
+  },
+  "seeds": [
+    {
+      "label": "Aurora Materials",
+      "company_names": [
+        "Aurora Decorative Materials Co., Ltd."
+      ],
+      "country_codes": [
+        "CN"
+      ]
+    },
+    {
+      "label": "Harbor Moulding",
+      "company_names": [
+        "Harbor Moulding Products Co., Ltd."
+      ],
+      "country_codes": [
+        "CN"
+      ]
+    }
+  ],
+  "filters": {
+    "include_keywords": [
+      "picture frame",
+      "photo frame",
+      "decorative moulding",
+      "frame moulding",
+      "wall trim"
+    ],
+    "exclude_keywords": [
+      "timber frame",
+      "vehicle frame",
+      "truck frame",
+      "steel frame",
+      "frame bracket",
+      "eyeglass frame"
+    ],
+    "buyer_countries": [
+      "US",
+      "DE",
+      "AU"
+    ],
+    "min_trade_count": 2
+  },
+  "pipeline": {
+    "max_pages_per_seed": 2,
+    "qualified_threshold": 65,
+    "review_threshold": 30,
+    "sleep_seconds": 0.5
+  }
+}
